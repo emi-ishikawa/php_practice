@@ -1,7 +1,7 @@
 <?php
 $a = 3;
 $b = 7;
-echo $a + $b."\n";
+echo $a + $b . "\n" ;
 
 $array_month = [
     "january" => "1月",
@@ -17,16 +17,16 @@ $array_month = [
     "november" => "11月",
     "december" => "12月"
     ];
-echo $array_month["august"]."\n";
+echo $array_month["august"] . "\n" ;
 
 $hello = "Hello";
 $name = " Emi";
 $world = "'s World!";
-echo $hello.$name.$world."\n";
+echo $hello.$name.$world . "\n" ;
 
-$tech_boost = 'tech';
+$tech_boost = 'tech ';
 $tech_boost.= 'boost';
-echo $tech_boost."\n";
+echo $tech_boost . "\n" ;
 
 $calendar = [
   "January" => "1月",
@@ -44,4 +44,4 @@ $calendar = [
 ];
 
 // 12月を表示する
-echo $calendar["December"] ."\n";
+echo $calendar["December"] . "\n" ;
